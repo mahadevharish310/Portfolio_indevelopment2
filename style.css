@@ -3,16 +3,29 @@ body {
   text-align: center;
   /* websafe fonts in css */
   font-family: "Merriweather", serif;
+  /* font-size: 200%; */
 }
 
 h1 {
-  margin-top: 0;
+  font-size: 562.5%;
+  color: #66bfbf;
+  line-height: 2;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
   /* width: 10%; */
   /* margin: 0 auto; */
 }
 
 h2 {
+  color: #66bfbf;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -23,15 +36,17 @@ h2 {
 }
 
 .middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
 }
 
 .bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
 .top-cloud {
@@ -44,4 +59,31 @@ h2 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.profile-image {
+  width: 25%;
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.computer-image {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.chess-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.chilli-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
